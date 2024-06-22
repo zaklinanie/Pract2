@@ -55,7 +55,7 @@ header {
 }
 .content-wrapper {
     min-height: 100%;
-    position: relative; /* Добавлено это свойство */
+    position: relative; 
     display: flex;
     flex-direction: column;
 }
@@ -65,7 +65,6 @@ footer {
     color: #f1f1f1;
     text-align: center;
     padding: 20px 0;
-    /* Удалено position: absolute; */
     bottom: 0;
     width: 100%;
     margin-top: auto;
